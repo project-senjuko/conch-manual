@@ -1,0 +1,14 @@
+version: 2
+updates:
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+    reviewers: [ "qianjunakasumi" ]
+    assignees: [ "qianjunakasumi" ]
+    open-pull-requests-limit: 114
+    rebase-strategy: "disabled"
+    commit-message:
+      prefix: "pref⬆️npm "
