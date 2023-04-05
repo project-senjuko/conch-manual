@@ -80,7 +80,7 @@ const config = {
               },
               {
                 label: '源代码文档',
-                to: 'pathname:///rust-docs/conch/index.html',
+                to: 'pathname:///rust-docs/senjuko_conch/index.html',
               },
             ],
           },
